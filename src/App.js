@@ -5,15 +5,15 @@ function App() {
     const [message, setMessage] = useState('');
 
     const showMessage = () => {
-        setMessage("Hello! You've clicked the button.");
+        setMessage("Every day with you is my favorite. You're my forever ❤️");
     };
 
     return (
         <div className="App">
-            <h1>Welcome to My Simple React Website!</h1>
-            <p>This is a simple React website to display a message.</p>
-            <button onClick={showMessage}>Click Me</button>
-            <p>{message}</p>
+            <h1>For My One and Only</h1>
+            <p>A little message to remind you of my love.</p>
+            <button onClick={showMessage}>Reveal My Heart</button>
+            <p className="message">{message}</p>
         </div>
     );
 }
